@@ -1,0 +1,45 @@
+[
+    {
+        "id": "apps-links",
+        "data": [
+            {
+                "name": "Chieru-Translator",
+                "img": "chieru.png",
+                "url": "https://apps.h1msk.cc/Chieru-Translator",
+                "enabled": true
+            }
+        ]
+    }, {
+        "id": "social-links",
+        "data": [
+            {
+                "name":"Github",
+                "font":"github-alt",
+                "url": "https://github.com/H1MSK",
+                "enabled": true
+            },
+            {
+                "name": "WordPress",
+                "font": "wordpress",
+                "url": "https://me.h1msk.cc",
+                "enabled": true
+            },
+            {
+                "name": "Blog",
+                "font": "book",
+                "url": "https://blog.h1msk.cc",
+                "enabled": true
+            }
+        ]
+    }, {
+        "id": "games-links",
+        "data": [
+            {
+                "name": "Mini-Dungeon",
+                "font": "gamepad",
+                "url": "https://apps.h1msk.cc/Mini-Dungeon/",
+                "enabled": true
+            }
+        ]
+    }
+]
