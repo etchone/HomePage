@@ -21,8 +21,7 @@ body {
     background: rgba(255,255,255,0.5);
     border-radius: 0 5rem;
     overflow: hidden;
-    transition: ease 0.5s;
-    /* transition: width 0.5s; */
+    transition: width 0.5s 0.5s, padding-bottom 0.5s;
     box-shadow: 0 0.2rem 0.4rem inset rgba(0 0 0 / 0.7);
     backdrop-filter: blur(2px);
 }
@@ -165,7 +164,7 @@ a.error:hover span {
 }
 
 #expand-button .fa-stack {
-    transition: 0.5s ease;
+    transition: 0.5s ease 0.5s;
     text-shadow: 0 0.2rem 0.2rem rgb(0 0 0 / 20%);
 }
 
@@ -197,7 +196,7 @@ a.error:hover span {
 #links {
     overflow: hidden;
     max-height: 0px;
-    transition: max-height 0.5s;
+    transition: max-height 0.5s,margin 0.5s;
     /* border-top: 4px solid rgba(127, 127, 127, 0.3); */
 }
 
