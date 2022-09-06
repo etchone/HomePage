@@ -4,15 +4,19 @@
     <title>H1MSK's Space | H1SPS</title>
     <link rel="stylesheet" href="font-awesome.min.css" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src='main.js'></script>
 </head>
 
 <body>
     <div id="container">
+        <div id="fullscreen-button" onclick="onFullscreenButtonClicked()">
+            <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+        </div>
         <div id="info">
             <img id="avatar" src="https://cravatar.cn/avatar/83afacf140ccb0c8c8c7584a618086a0?s=200" title="Avatar" />
-            <h1 id="logo-wrap">
-                <div id="logo">H1's Space</div>
+            <h1 id="title-wrap">
+                <div id="title">H1's Space</div>
             </h1>
             <h2 id="subtitle-wrap">
                 <div id="subtitle">坐和放宽</div>
@@ -56,10 +60,36 @@
                 </div>
             </div>
         </div>
+        <div id="detail-panel">
+            <div id="detail-info">
+                <div id="detail-left">
+                    <div id="detail-name">
+                    </div>
+                    <div id="detail-describe">
+                    </div>
+                    <div id="detail-buttons">
+                        <div id="detail-button-go">
+                            <i class="fa fa-play"></i>
+                            <span>Visit</span>
+                        </div>
+                        <div id="detail-button-preview">
+                            <i class="fa fa-eye"></i>
+                            <span>Preview</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="detail-right">
+                    <div id="detail-icon">
+                    </div>
+                </div>
+            </div>
+            <div id="detail-preview">
+            </div>
+        </div>
     </div>
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <div id="busuanzi_container_site_pv">Visit count: <span id="busuanzi_value_site_pv"></span>(S) <span
-            id="busuanzi_value_page_pv"></span>(P)</div>
+    <div id="busuanzi_container_site_pv">Visit site: <span id="busuanzi_value_site_pv"></span> page: <span
+            id="busuanzi_value_page_pv"></span></div>
 </body>
 
 </html>

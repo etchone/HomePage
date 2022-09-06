@@ -6,7 +6,10 @@
                 "name": "Chieru-Translator",
                 "img": "chieru.png",
                 "url": "https://apps.h1msk.cc/Chieru-Translator",
-                "enabled": true
+                "enabled": true,
+                "detail": {
+                    "subname": "Translator of language Chieru"
+                }
             }
         ]
     }, {
@@ -28,7 +31,10 @@
                 "name": "Blog",
                 "font": "book",
                 "url": "https://blog.h1msk.cc",
-                "enabled": true
+                "enabled": true,
+                "detail": {
+                    "subname": "My post website"
+                }
             }
         ]
     }, {
@@ -38,7 +44,10 @@
                 "name": "Mini-Dungeon",
                 "font": "gamepad",
                 "url": "https://apps.h1msk.cc/Mini-Dungeon/",
-                "enabled": true
+                "enabled": true,
+                "detail": {
+                    "subname": "Dungeon game written in unity"
+                }
             }
         ]
     }
