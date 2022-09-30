@@ -15,7 +15,8 @@
 
     var randomizeColor, randomizeBackgroundColor;
     (function () {
-        var arr = ["0", "1", "2", "3", "4", "5"].shuffle();
+        // var arr = ["0", "1", "2", "3", "4", "5"].shuffle();
+        var arr = ["default"];
         var ptr = 0;
         function nextItem() {
             var ret = arr[ptr];
