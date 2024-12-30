@@ -5,7 +5,7 @@
             {
                 "name": "Chieru-Translator",
                 "img": "chieru.png",
-                "url": "https://apps.h1msk.cc/Chieru-Translator",
+                "url": "https://etchone.fun/Chieru-Translator",
                 "enabled": true,
                 "detail": {
                     "subname": "Translator of language Chieru"
@@ -18,13 +18,13 @@
             {
                 "name":"Github",
                 "font":"github-alt",
-                "url": "https://github.com/H1MSK",
+                "url": "https://github.com/etchone",
                 "enabled": true
             },
             {
                 "name": "Blog",
                 "font": "feather-pointed",
-                "url": "https://etchone.ink",
+                "url": "https://blog.etchone.ink",
                 "enabled": true,
                 "detail": {
                     "subname": "My post website"
@@ -37,7 +37,7 @@
             {
                 "name": "Mini-Dungeon",
                 "font": "gamepad",
-                "url": "https://apps.h1msk.cc/Mini-Dungeon/",
+                "url": "https://etchone.fun/Mini-Dungeon/",
                 "enabled": true,
                 "detail": {
                     "subname": "Dungeon game written in unity"
