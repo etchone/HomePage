@@ -5,7 +5,7 @@
             {
                 "name": "Chieru-Translator",
                 "img": "chieru.png",
-                "url": "https://etchone.fun/Chieru-Translator",
+                "url": "https://apps.etchone.ink/Chieru-Translator",
                 "enabled": true,
                 "detail": {
                     "subname": "Translator of language Chieru"
@@ -37,7 +37,7 @@
             {
                 "name": "Mini-Dungeon",
                 "font": "gamepad",
-                "url": "https://etchone.fun/Mini-Dungeon/",
+                "url": "https://apps.etchone.ink/Mini-Dungeon/",
                 "enabled": true,
                 "detail": {
                     "subname": "Dungeon game written in unity"
