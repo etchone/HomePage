@@ -39,7 +39,7 @@
         var icon;
         if (data.img) {
             icon = document.createElement("img");
-            icon.src = "imgs/" + data.img;
+            icon.src = data.img;
             icon.className = "icon";
         } else if (data.font) {
             icon = document.createElement("i");

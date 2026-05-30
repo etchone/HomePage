@@ -4,7 +4,7 @@
         "data": [
             {
                 "name": "Chieru-Translator",
-                "img": "chieru.png",
+                "img": "imgs/chieru.png",
                 "url": "https://apps.etchone.ink/Chieru-Translator",
                 "enabled": true,
                 "detail": {
@@ -25,6 +25,15 @@
                 "name": "Blog",
                 "font": "feather-pointed",
                 "url": "https://blog.etchone.ink",
+                "enabled": true,
+                "detail": {
+                    "subname": "My post website"
+                }
+            },
+            {
+                "name": "View",
+                "img": "//view.etchone.ink/images/logo.svg",
+                "url": "https://view.etchone.ink",
                 "enabled": true,
                 "detail": {
                     "subname": "My post website"
